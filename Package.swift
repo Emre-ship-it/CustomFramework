@@ -23,6 +23,9 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "CustomFramework",
-            path: "./Sources/CustomFramework.xcframework")
+            url: "https://github.com/Emre-ship-it/CustomFramework/releases/download/0.0.5/CustomFramework.xcframework.zip",
+            checksum: "3d4dcefba1a74f50808c6b6aa11a122dbbc68262278ea0a6ceff821cae2b9aef"
+        )
+
     ]
 )
